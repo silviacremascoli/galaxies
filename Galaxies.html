@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🪐  A guide to space 🪐 </title>
+    <style>
+      body {
+        background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        line-height: 25px;
+        margin: 20px auto;
+      }
+      .container {
+        display: block;
+        margin: 20px auto;
+        max-width: 600px;
+        background: linear-gradient(
+          68.6deg,
+          rgb(252, 165, 241) 1.8%,
+          rgb(181, 255, 255) 100.5%
+        );
+        padding: 20px;
+        border-radius: 10px;
+      }
+      img {
+        max-width: 100%;
+      }
+      p {
+        line-height: 20px;
+        text-align: center;
+        font-size: 18px;
+      }
+      footer {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 15px;
+      }
+      .download {
+        display: block;
+        margin: 0 auto;
+        border: 2px solid #ace0f9;
+        background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 10px;
+        transition: all 200ms ease-in-out;
+        font-weight: bold;
+      }
+
+      .download:hover {
+        background: radial-gradient(
+          circle at 18.7% 37.8%,
+          rgb(250, 250, 250) 0%,
+          rgb(225, 234, 238) 90%
+        );
+        cursor: pointer;
+      }
+      .theme-button {
+        display: block;
+        margin: 20px auto;
+        font-size: 14px;
+        background: linear-gradient(
+          112.1deg,
+          rgb(32, 38, 57) 11.4%,
+          rgb(63, 76, 119) 70.2%
+        );
+        color: white;
+        font-weight: bold;
+        padding: 12px;
+        transition: all 200ms ease-in-out;
+        border: 1px solid white;
+        border-radius: 25px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .theme-button:hover {
+        background: linear-gradient(
+          112.1deg,
+          rgba(32, 38, 57, 0.9) 11.4%,
+          rgba(63, 76, 119, 0.9) 70.2%
+        );
+        cursor: pointer;
+      }
+      .milky-way {
+        border-radius: 10px;
+        transition: transform 150ms ease-in-out, filter 500ms ease-in;
+      }
+      .milky-way:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+      .grid {
+        margin: 10px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 7px;
+        transition: transform 150ms ease-in-out, filter 500ms ease-in;
+      }
+      .grid img:hover {
+        filter: contrast(90%);
+        transform: scale(1.2);
+      }
+      .wiki {
+        text-decoration: none;
+      }
+      .wiki:hover {
+        text-decoration: underline;
+      }
+      .dark {
+        background: radial-gradient(
+          780px at 37.8% 100.3%,
+          rgb(19, 55, 115) 2.2%,
+          rgb(32, 7, 80) 20.2%,
+          rgb(27, 88, 111) 58.6%,
+          rgb(115, 88, 44) 75%,
+          rgb(99, 19, 90) 89.6%,
+          rgb(12, 51, 76) 96.1%
+        );
+        color: white;
+      }
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .dark .theme-button {
+        background: linear-gradient(
+          112.1deg,
+          rgb(32, 38, 57) 11.4%,
+          rgb(63, 76, 119) 70.2%
+        );
+        color: white;
+      }
+      .dark .theme-button:hover {
+        background: radial-gradient(
+          circle at 18.7% 37.8%,
+          rgb(250, 250, 250) 0%,
+          rgb(225, 234, 238) 90%
+        );
+        color: black;
+      }
+      .dark a {
+        color: #496ad2;
+      }
+      .Silvia {
+        text-decoration: none;
+      }
+      .Silvia:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">CHANGE THEME</button>
+    <div class="container">
+      <h1>🪐  A guide to space 🪐 </h1>
+      <h2>🌌 Galaxies 🌌</h2>
+      <a href="https://en.wikipedia.org/wiki/Galaxy" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/216/original/bode-s-galaxy.jpg?1679061867"
+          alt="milky way"
+          class="milky-way"
+        />
+      </a>
+      <div class="grid">
+        <a
+          href="https://en.wikipedia.org/wiki/Irregular_galaxy"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/225/original/1.png?1679065993"
+            alt="irregular galaxy"
+          />
+        </a>
+        <a
+          href="https://en.wikipedia.org/wiki/Elliptical_galaxy"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/226/original/2.png?1679066014"
+            alt="elliptical galaxy"
+          />
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Spiral_galaxy" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/227/original/3.png?1679066022"
+            alt="spiral galaxy"
+          />
+        </a>
+      </div>
+      <p>
+        A galaxy is a <strong>system</strong> of stars, stellar remnants,
+        interstellar gas, dust, dark matter, bound together by
+        <strong>gravity</strong>. The word is derived from the Greek galaxias
+        (<em>γαλαξίας</em>), literally 'milky', a reference to the Milky Way
+        galaxy that contains the Solar System.
+        <br />
+        <br />
+        Galaxies, averaging an estimated <strong>100 million stars</strong>,
+        range in size from dwarfs with less than a hundred million stars, to the
+        largest galaxies known – supergiants with one hundred trillion stars,
+        each orbiting its galaxy's center of mass. Most of the mass in a typical
+        galaxy is in the form of <strong>dark matter</strong>, with only a few
+        percent of that mass visible in the form of stars and nebulae.
+        <strong>Supermassive black holes</strong> are a common feature at the
+        centres of galaxies.
+        <br />
+        <br />
+        Galaxies are categorized according to their visual morphology as
+        <strong>elliptical</strong>, <strong>spiral</strong>, or
+        <strong>irregular</strong>. Many are thought to have supermassive black
+        holes at their centers. The Milky Way's central black hole, known as
+        Sagittarius A*, has a mass four million times greater than the Sun. As
+        of March 2016, GN-z11 is the oldest and most distant galaxy observed. It
+        has a comoving distance of
+        <strong>32 billion light-years from Earth</strong>, and is seen as it
+        existed just 400 million years after the Big Bang.
+        <br />
+        <br />
+        📖
+        <a
+          href="https://en.wikipedia.org/wiki/Galaxy"
+          target="_blank"
+          class="wiki"
+          ><strong>Learn more on Wikipedia</strong></a
+        >
+        📖
+      </p>
+      <button class="download">DOWNLOAD OUR SPACE GUIDE</button>
+    </div>
+    <footer>
+      👩‍💻 Coded by
+      <a
+        href="https://www.linkedin.com/in/silvia-cremascoli-64185096/"
+        target="_blank"
+        class="Silvia"
+        >Silvia Cremascoli</a
+      >
+      👩‍💻
+    </footer>
+
+    <script>
+      function download() {
+        let firstName = prompt("What's your first name?");
+        let email = prompt("What's your email address?");
+
+        if (firstName.length > 0 && email.length > 0) {
+          alert(
+            "Thanks, " +
+              firstName +
+              "! We'll send you a link to download our space guide! 🌠"
+          );
+        } else {
+          alert("Please fill in all the required data!");
+        }
+      }
+
+      let downloadButton = document.querySelector(".download");
+      downloadButton.addEventListener("click", download);
+
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
